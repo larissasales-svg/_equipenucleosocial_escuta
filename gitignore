@@ -1,0 +1,20 @@
+# Python e Ambientes Virtuais
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook (ficheiros temporários de execução)
+.ipynb_checkpoints/
+
+# Dados locais sensíveis ou ficheiros pesados temporários
+data/raw/*.xlsx
+*.log
+
+# Ficheiros do Sistema Operativo
+.DS_Store
+Thumbs.db
+desktop.ini
