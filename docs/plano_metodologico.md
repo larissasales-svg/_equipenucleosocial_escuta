@@ -33,6 +33,15 @@ Análise do papel do Conselho Regional de Economia da Paraíba na difusão da ci
 ### Variáveis Controladoras
 - Renda familiar *per capita*, grau de escolaridade, número de dependentes e tipo de ocupação dos provedores da renda.
 
+- ## Relatório de Qualidade dos Dados (Entrega 5)
+
+| Variável / Base | Problema Encontrado | Decisão Aplicada | Impacto / Validação |
+| :--- | :--- | :--- | :--- |
+| `codigo_participante` | Inconsistência de formatação (espaços e minúsculas). | Aplicação de `.str.strip().str.upper()` para padronização. | Unificação exata entre os questionários T0 e T1 sem duplicidades incoerentes. |
+| `bloco_4_q1` a `bloco_4_q3` | Respostas em texto corrido de múltipla escolha. | Vetorização com gabarito oficial para converter em pontuação (0 ou 1). | Criação da variável quantitativa `score_letramento` (escala de 0 a 3). |
+| `bloco_3_q3` (Inadimplência) | Categorias qualitativas de contas em atraso. | Recodificação para variável binária *dummy* (`0` = Adimplente, `1` = Inadimplente). | Adequação para uso em modelos de regressão logística e econometria. |
+| `renda_bruta` (Bloco I) | Campos não preenchidos em questionários incompletos. | Preservação dos valores nulos (`NaN`) sem imputação artificial. | Evita a introdução de viés na análise socioeconômica de controle. |
+
 ### Variáveis Dependentes (Resultados do Impacto)
 - **Taxa de Inadimplência:** Alteração no percentual de contas em atraso após a participação no programa.
 - **Efetividade na Renegociação:** Razão entre o montante total da dívida original e o valor renegociado mediante orientação técnica.
