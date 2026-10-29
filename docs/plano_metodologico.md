@@ -17,7 +17,7 @@ Análise do papel do Conselho Regional de Economia da Paraíba na difusão da ci
 
 | Etapa | Classificação / Procedimento | Aplicação Prática ao "Paraíba Sem Dívidas" |
 | :--- | :--- | :--- |
-| **Natureza Metodológica** | Pesquisa Quase-Experimental e Quantitativa | Avaliação de impacto comparando grupos (antes/depois e grupo de controle). |
+| | Natureza Metodológica | Pesquisa Quase-Experimental e quantitativa | Avaliação de impacto comparando grupos (antes/depois e grupo de controle). |
 | **Abordagem de Dados** | Mista (Quali-Quantitativa) | Aplicação de métricas numéricas (grau de endividamento) combinada com análise comportamental dos hábitos orçamentários. |
 | **Unidade de Análise** | Famílias beneficiárias do programa na Paraíba | Amostragem composta por cidadãos atendidos nas ações do CORECON-PB (com recortes em João Pessoa — de imediato — e Campina Grande). |
 | **Instrumento de Coleta** | Formulário de Acompanhamento Longitudinal | Aplicação de questionário estruturado em três momentos:<br>• **(T0)** Início do atendimento no programa;<br>• **(T1)** 3 meses pós-capacitação;<br>• **(T2)** 6 meses pós-capacitação. |
